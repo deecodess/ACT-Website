@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+.tooMuchContent {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+  gap: 2rem;
+}
+.dropbtn {
+  width: 100vw;
+  text-align: left;
+  padding: 0.3rem;
+  margin: 0.1rem;
+  background-color: #e5e5e5;
+  border: 0.1px solid #ffffff;
+  border-radius: 0.1rem;
+  font-size: 1.5rem;
+}
+.content {
+  padding: 0.8rem;
+}
+.buttonContainer {
+  width: 20vw;
+  margin: 2rem 5rem;
+}

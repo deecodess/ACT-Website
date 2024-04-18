@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto Slab", serif;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  h1,
+  h4,
+  h3,
+  a {
+    font-weight: 300;
+  }
+
+  .footerColumn {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 30%;
+    min-width: 15%;
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    li {
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .NavLink,
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    a:visited,
+    a:active {
+      color: white;
+    }
+  }
+  .footerTri {
+    height: 45vh;
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footerContainer {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .footerColumn {
+    max-width: 80%;
+    min-width: 60%;
+  }
+  .footerTri {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+  }
+  .footerColumn {
+    max-width: 90%;
+    min-width: 70%;
+  }
+  .footerTri {
+    height: 25vh;
+  }
+  h1,
+  h3,
+  h4,
+  a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footerContainer {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+  }
+  .footerColumn {
+    max-width: 100%;
+    align-items: center; /* Center items for small screens */
+  }
+  .footerTri {
+    height: 20vh;
+  }
+  h1,
+  h3,
+  h4,
+  a {
+    font-size: 0.5rem;
+  }
+}

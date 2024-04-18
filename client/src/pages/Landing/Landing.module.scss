@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+.landingWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Slab", serif;
+  margin-top: 60px;
+  overflow: hidden;
+
+  .heroWrapper {
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/LandingBG.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    .aboutInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 2rem;
+      width: 50%;
+      h1 {
+        font-size: 6rem;
+      }
+    }
+    .buttonContainer {
+      display: flex;
+      justify-content: flex-start;
+      width: 50%;
+      gap: 2rem;
+      margin-left: 2rem;
+    }
+    .button {
+      background-color: #d9d9d9;
+      padding: 0.8rem 0.8rem;
+      border-radius: 2rem;
+      width: 50%;
+      text-align: center;
+      color: black;
+    }
+    .smallLink {
+      margin-left: 2rem;
+      margin-top: 2rem;
+      color: white;
+
+      span {
+        width: 1rem !important;
+        height: 1rem !important;
+        font-size: 1rem !important;
+        vertical-align: middle;
+      }
+    }
+  }
+  .areaOfInterestInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    h4 {
+      font-size: 1rem;
+      font-weight: 300;
+      margin-top: 2rem;
+      margin-bottom: -2rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    .areaOfInterestTileContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 5.5rem;
+      align-items: center;
+      width: 100vw;
+      .areaOfInterestTile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+        h3 {
+          display: flex;
+          font-size: 1.5rem;
+          font-weight: 600;
+          justify-content: center !important;
+          align-items: center !important;
+        }
+        h5 {
+          display: flex;
+          font-size: 0.8rem;
+          font-weight: 500;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .areaOfInterestIcons {
+        height: 5rem;
+        width: 5rem;
+      }
+    }
+    .buttonContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1rem;
+      width: 30vw;
+
+      // .button {
+      //   background-color: #d9d9d9;
+      //   padding: 0.8rem 0.8rem;
+      //   border-radius: 2rem;
+      //   text-align: center;
+      //   color: black;
+      // }
+    }
+  }
+  .poster {
+    display: flex;
+    width: 100vw;
+    height: auto;
+  }
+  .moreInfoContainer {
+    display: flex;
+    flex-direction: column;
+    .moreInfoTile {
+      display: flex;
+      flex-direction: row;
+      .moreInfoLeftOne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+      }
+
+      .moreInfoRightOne {
+        width: 50%; /* Adjusted from 30vw to 50% */
+        aspect-ratio: 4/3;
+        video {
+          width: auto;
+          height: 80%;
+        }
+      }
+
+      .moreInfoRightTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 50%;
+      }
+    }
+  }
+  .copyright {
+    background-color: #151515;
+    color: #3f3f3f;
+    padding-left: 1rem;
+  }
+}

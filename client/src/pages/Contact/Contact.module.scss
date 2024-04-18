@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+.container {
+  overflow-y: auto;
+  height: 100vh;
+  font-family: "Roboto Slab", serif;
+  padding-bottom: 5rem;
+}
+
+.contact-container {
+  color: white;
+}
+
+#name {
+  margin-top: 10px;
+}
+
+#message-text {
+  width: 25rem;
+  height: 15rem;
+  margin-top: 0.5rem;
+  background-color: #bebebe;
+}
+
+#email-text {
+  width: 25rem;
+  height: 1.5rem;
+  margin-bottom: 1em;
+  margin-top: 0.5rem;
+  background-color: #bebebe;
+}
+
+#name-text {
+  width: 25rem;
+  height: 1.5rem;
+  margin-bottom: 1em;
+  /* margin-top: 0.5rem; */
+  background-color: #bebebe;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.form-container {
+  max-width: 400px;
+  h2 {
+    color: black;
+  }
+}
+
+.logo-container {
+  text-align: center;
+}
+
+#Name {
+  margin-right: 23em;
+}
+
+#Message {
+  margin-right: 23em;
+}
+
+#Email {
+  margin-right: 23em;
+}
+.map {
+  margin: 1rem;
+  height: 70vh;
+  width: auto;
+}
+
+.mappart {
+  height: 100%;
+}
+
+@media (min-width: 1050px) and (max-width: 1200px) {
+  #message-text {
+    width: 23rem;
+    height: 14rem;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #email-text {
+    width: 23rem;
+    height: 1.5rem;
+    margin-bottom: 1em;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #name-text {
+    width: 23rem;
+    height: 1.5rem;
+    margin-bottom: 1em;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  .form-container {
+    flex: 1;
+    max-width: 400px;
+    margin-top: 2em;
+    margin-left: 4.5rem;
+  }
+
+  .logo-container {
+    flex: 1;
+    text-align: center;
+    margin-right: 2em;
+  }
+
+  #Name {
+    margin-right: 20em;
+  }
+
+  #Message {
+    margin-right: 19em;
+  }
+
+  #Email {
+    margin-right: 20.8em;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+  #message-text {
+    width: 21.5rem;
+    height: 14rem;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #email-text {
+    width: 21.5rem;
+    height: 1.5rem;
+    margin-bottom: 1em;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #name-text {
+    width: 21.5rem;
+    height: 1.5rem;
+    margin-bottom: 1em;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  .form-container {
+    flex: 1;
+    max-width: 400px;
+    margin-top: 2.5em;
+    margin-left: 5.5rem;
+  }
+
+  .logo-container {
+    flex: 1;
+    text-align: center;
+    margin-right: 2em;
+  }
+
+  #Name {
+    margin-right: 18em;
+  }
+
+  #Message {
+    margin-right: 17em;
+  }
+
+  #Email {
+    margin-right: 18.8em;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 950px) {
+  #message-text {
+    width: 20.5rem;
+    height: 11.5rem;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #email-text {
+    width: 20.5rem;
+    height: 1.2rem;
+    margin-bottom: 1em;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #name-text {
+    width: 20.5rem;
+    height: 1.2rem;
+    margin-bottom: 1em;
+    margin-top: 0.5rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  .form-container {
+    flex: 1;
+    max-width: 400px;
+    margin-top: 2.2em;
+    margin-left: 4.67rem;
+  }
+
+  .logo-container {
+    flex: 1;
+    text-align: center;
+    margin-right: 2em;
+  }
+
+  #Name {
+    margin-right: 17.5em;
+  }
+
+  #Message {
+    margin-right: 16.5em;
+  }
+
+  #Email {
+    margin-right: 18.3em;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 850px) {
+  .Big-logo {
+    display: none;
+  }
+
+  #header-contactUs {
+    font-size: 2.1em;
+  }
+
+  #message-text {
+    width: 80%;
+    height: 13rem;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #email-text {
+    width: 80%;
+    height: 1.2rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #name-text {
+    width: 80%;
+    height: 1.2rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  .form-container {
+    flex: 1;
+    max-width: 400px;
+    margin-top: 2em;
+    margin-left: 4rem;
+  }
+
+  .logo-container {
+    flex: 1;
+    text-align: center;
+    margin-right: 2em;
+  }
+  #Name {
+    margin-right: 70%;
+  }
+
+  #Message {
+    margin-right: 65%;
+  }
+
+  #Email {
+    margin-right: 74%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .Big-logo {
+    display: none;
+  }
+
+  #header-contactUs {
+    font-size: 1.5em;
+  }
+
+  #message-text {
+    width: 75%;
+    height: 12rem;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #email-text {
+    width: 75%;
+    height: 1.2rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #name-text {
+    width: 75%;
+    height: 1.2rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  .form-container {
+    flex: 1;
+    max-width: 400px;
+    margin-top: 2em;
+    margin-left: 4rem;
+  }
+
+  .logo-container {
+    flex: 1;
+    text-align: center;
+    margin-right: 2em;
+  }
+
+  #Name {
+    margin-right: 60%;
+  }
+
+  #Message {
+    margin-right: 56%;
+  }
+
+  #Email {
+    margin-right: 64%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .Big-logo {
+    display: none;
+  }
+
+  /* .logo-container {
+    display: none;
+    } */
+  .contact-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .form-container {
+    /* flex: 1; */
+    max-width: 400px;
+    margin-top: 3em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #header-contactUs {
+    font-size: 2.1em;
+  }
+
+  #message-text {
+    width: 22em;
+    height: 11rem;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #email-text {
+    width: 22em;
+    height: 1rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #name-text {
+    width: 22em;
+    height: 1rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #Name {
+    margin-right: 83%;
+  }
+
+  #Message {
+    margin-right: 78%;
+  }
+
+  #Email {
+    margin-right: 85%;
+  }
+}
+
+@media (max-width: 500px) {
+  .Big-logo {
+    display: none;
+  }
+
+  /* .logo-container {
+    display: none;
+    } */
+  .contact-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .form-container {
+    /* flex: 1; */
+    max-width: 400px;
+    margin-top: 3em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #header-contactUs {
+    font-size: 2.1em;
+  }
+
+  #message-text {
+    width: 20.5em;
+    height: 11rem;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #email-text {
+    width: 20.5em;
+    height: 1rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #name-text {
+    width: 20.5em;
+    height: 1rem;
+    margin-bottom: 0.8em;
+    margin-top: 0.4rem;
+    background-color: rgb(44, 40, 40);
+  }
+
+  #Name {
+    margin-right: 83%;
+  }
+
+  #Message {
+    margin-right: 78%;
+  }
+
+  #Email {
+    margin-right: 85%;
+  }
+}
